@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,8 +8,10 @@
     
   </head>
   <body>
+    <header class="navbar">
     <img src="./assets/images.png" alt="food" />
     <div>
+      <ul>
       <li>
         <a href="#home">Home</a>
       </li>
@@ -19,13 +21,15 @@
       <li>
         <a href="#contact">Contact</a>
       </li>
+    </ul>
     </div>
-    <header>
+    </header>
+    <header1>
       <main>
         <section class="home" id="home">
-          <h1>Home</h1>
-          <h3>Welcome to my website.</h3>
-          <form action="home.html" method="post">
+          <!-- <h1>Home</h1> -->
+          <h3 class="first-heading">Welcome to my website.</h3>
+          <form action="home.html" method="post" class="websiteform">
             <label for="name">UserName:</label>
             <input type="text" id="name" name="name" />
             <br />
@@ -64,7 +68,7 @@
             <label for="imageselect">Choose a image:</label>
             <input type="file" id="imageselect" name="imageselect" />
             <br />  
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" class="button"/>
           </form>
         </section>
       </main>
@@ -85,6 +89,6 @@
           <strong>contact us at 1234567890</strong>
           <p>email us at <b>Foodify@gmail.com</b> </p> 
           <br />
-    </header>
+    </header1>
   </body>
 </html>
