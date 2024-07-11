@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="container">
+        
+        
+    </div> -->
+    <p id="sampleclass"></p>
+    <script>
+        class College{
+            constructor(name,year){
+                this.name = name;
+                this.year = year;
+            }
+        }
+        const myName = new College('Siddharth',2020);
+        const myName1 = new College('Manoj',2021);
+        document.getElementById('sampleclass').innerHTML = myName.name + " " + myName1.name;
+    </script>
+</body>
+</html>
